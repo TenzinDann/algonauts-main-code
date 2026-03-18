@@ -1,0 +1,14 @@
+numpy<2.0
+torch>=2.0
+torchvision
+torchaudio
+pytorchvideo
+transformers
+scikit-learn
+scipy
+librosa
+h5py
+nibabel
+nilearn
+tqdm
+moviepy

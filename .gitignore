@@ -1,0 +1,36 @@
+# Data files (too large for git)
+*.npy
+*.zip
+*.h5
+*.hdf5
+*.nii.gz
+
+# Output directories
+baseline_output/
+new_model_output/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+build/
+dist/
+.eggs/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment
+.env
+*.log
