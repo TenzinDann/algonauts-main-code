@@ -21,25 +21,6 @@ Key techniques:
 - **Parcel-Specific Weighting**: Temperature-scaled softmax (T=0.3) across ensemble members per brain parcel
 - **Early Stopping**: Patience=7 on validation loss with 3-epoch full-data fine-tuning
 
-## Repository Structure
-
-```
-├── algonauts_brain_encoding/       # Core Python package
-│   ├── __init__.py
-│   ├── models.py                   # TRIBEEncoder, MedARCEncoder, WideLinearEncoder
-│   ├── losses.py                   # PearsonLoss, CombinedLoss
-│   ├── dataset.py                  # AlgonautsDataset with noise augmentation
-│   ├── ensemble.py                 # ParcelSpecificEnsemble, BrainPredictorWrapper
-│   ├── features.py                 # Feature extraction (visual, audio, language)
-│   ├── data_utils.py               # Data loading and temporal alignment
-│   └── train.py                    # End-to-end training and submission generation
-├── notebooks/
-│   ├── baseline.ipynb              # Linear baseline pipeline
-│   └── new_model.ipynb             # Enhanced ensemble pipeline (run on Colab)
-├── requirements.txt
-├── LICENSE
-└── README.md
-```
 
 ## Setup
 
